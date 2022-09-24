@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+ 
+    <link href="estilo.css" rel="stylesheet">
+    <title>Preencha seu formulario</title>
+    <meta charset="utf-8">
+  </head>
+  
+  <main id="conteudoprincipal">
+  
+  <header id="topo">
+       <h1 class="logo-site">Robert's University</h1>
+	   <h2>Voce pode ser tudo que quiser</h2>
+	   <div class="botoes-topo">
+			<a href="" class="Botao-rosa-topo">Entre para a nossa falculdade</a>
+			<a href="" class="Botao-rosa-claro-topo">Aquii</a>
+	   </div>
+
+	<nav id="menu">
+	
+		<ul>
+			<li> <a href="" title="Página Inicial">Início</a> </li>
+			<li> <a href="texto1.html" title="Por que estudar na Robert's??">Por que estudar na Robert's??</a> </li>
+			<li> <a href="cursos.html" title="Como funciona o sistema de aulas??">cursos</a> </li>
+			<li> <a href="Formulario.html" title="Inscreva-se!!">formulario</a> </li>
+		</ul>
+	</nav>
+	</header>
+ 
+  <body>
+	<fieldset>
+		<form action="arquivo.php" methold="POST">
+		<label>Nome completo:
+		<input type="text" name="nomecompleto"
+		placeholder="Digite seu nome completo">
+		</label><br><br>
+	</fieldset>
+
+	<fieldset>
+		<label>Cpf:
+		<input type="number" name="cpf"
+		placeholder="digite seu cpf">
+		</label><br><br>
+	</fieldset>
+
+	<fieldset>
+		<label>Numero de Contato:
+		<input type="number" name="contato"
+		placeholder="digite seu numero de contato">
+		</label><br><br>
+	</fieldset>
+
+	<fieldset>
+		<label>data de nascimento:
+		<input type="date" name="datanasc">
+		</label><br><br>
+	</fieldset>
+	
+	<fieldset>
+		<label>:
+		<input type="password" name="senha" placeholder="Digite sua senha até 6 caracteres" maxlength="6">
+		</label><br><br>
+	</fieldset>
+	
+	<fieldset>
+	<legend>Sexo:</legend>
+
+	<label>
+		<input type="radio" name="sexo" value="Masculino" > Masculino
+	</label>
+
+	<label for="sexoF">
+		<input type="radio" name="sexo" value="Feminino" id="sexoF">Feminino
+	</label>
+
+	<label for="sexoF">
+		<input type="radio" name="sexo" value="Não Binário" id="sexoN">Não Binário
+	</label>
+
+	<label for="sexoF">
+		<input type="radio" name="sexo" value="Outro" id="sexoO">Outro
+	</label>
+
+</fieldset><br><br>
+
+
+<fieldset>
+<label>categorias:
+<select name="Categorias">
+<option></option>
+<option value="Musi">Musica</option>
+<option value="danç">Dança</option>
+<option value="Moda">Moda</option>
+<option value="zoo">zoologia</option>
+<option value="Biologialogia Marinha">Biologia Marinha</option>
+
+</select>
+</label><br><br>
+</fieldset>
+
+<fieldset>
+<label>
+Comentarios:<br>
+<textarea name="Porque gostaria de fazer parte da nossa falculdade??: rows="150"></textarea>
+</label><br><br>
+</fieldset>
+
+<label>
+<button type="subimit">Enviar</button>
+</label>
+
+</form>
+</main>
+
+	<footer id="rodape">
+       <h1 class="logo-site">Robert's University</h1>
+	   <p>Todos Direitos Reservados. &copy; Robert's University</p>
+		<div>
+			<<a href="" title="Instagram"><img src="images/icons-site/icons8-instagram-48.png"></a>
+		<a href="" title="twitter"><img src="images/icons-site/icons8-twitter-48.png"></a>
+		<a href="" title="Whatsaap"><img src="images/icons-site/icons8-whatsapp-50.png"></a>
+		</div>
+    </footer>
+
+  </body>
+</html>
